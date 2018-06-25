@@ -1,8 +1,8 @@
 //given limited range array of size n find the duplicate number
 
-public class findDuplicate 
+public class find_duplicate 
 {	
-	public static int findDuplicate(int[] x) 
+	public static int find_duplicate(int[] x) 
 	{		
 		boolean y[] = new boolean[x.length + 1];
 		
@@ -23,7 +23,7 @@ public class findDuplicate
 
 		int[] x = {1, 4, 6, 6, 7, 9};
 		
-		System.out.println(findDuplicate(x));
+		System.out.println(find_duplicate(x));
 	}
 
 }
