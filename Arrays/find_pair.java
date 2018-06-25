@@ -1,8 +1,8 @@
 //Given an unsorted array of integers, find a pair with given sum in it.
 
-public class findPair 
+public class find_pair 
 {	
-	public static void findPair(int[] x, int sum) 
+	public static void find_pair(int[] x, int sum) 
 	{		
 		for (int i = 0; i < x.length -1; i++) 
 		{			
@@ -23,7 +23,7 @@ public class findPair
 		int x[] = {8, 5 , 4, 2, 7, 9, 1};
 		int sum = 10;
 		
-		findPair(x, sum);		
+		find_pair(x, sum);		
 
 	}
 }
