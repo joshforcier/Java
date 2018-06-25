@@ -1,0 +1,25 @@
+public class Question12_14 {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter a file: ");
+		File file = new File(input.nextLine());
+		if (!file.exists()) {
+			System.out.println("File does not exist");
+			
+		int count = 0; 		
+		double total = 0;	
+		
+		try (Scanner inputFile = new Scanner(file);){
+		
+			while (inputFile.hasNext()) {
+				total += inputFile.nextInt();
+				count++;
+			}
+		}
+		System.out.println("Total scores: " + total);
+		System.out.println("Average scores: " + (total / count));
+		}
+	}
+}
