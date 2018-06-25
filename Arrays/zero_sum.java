@@ -1,8 +1,8 @@
 //check if subarray with 0 sum exists or not
 
-public class zeroSum 
+public class zero_sum 
 {
-	public static Boolean zeroSum(int[] x) 
+	public static Boolean zero_sum(int[] x) 
 	{
 		Set<Integer> set = new HashSet<>();
 		set.add(0);
@@ -25,7 +25,7 @@ public class zeroSum
 		
 		int[] x = {3, 4, -6, 1, 3, -2, -2, 7, 8};
 		
-		if (zeroSum(x)) 
+		if (zero_sum(x)) 
 		{
 			System.out.println("Exists");
 		} else {
