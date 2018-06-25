@@ -1,8 +1,8 @@
 //Given array of integers, print all sub-arrays with 0 sum.
 
-public class printZeroSum 
+public class print_zero_sum 
 {	
-	public static void printZeroSum(int[] x) 
+	public static void print_zero_sum(int[] x) 
 	{		
 		for (int i = 0; i < x.length; i++) 
 		{			
@@ -22,6 +22,6 @@ public class printZeroSum
 	{		
 		int[] x = { 3, 4, 1, 5, 8, -5, -7, 1, -3};
 		
-		printZeroSum(x);
+		print_zero_sum(x);
 	}
 }
