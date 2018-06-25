@@ -1,3 +1,5 @@
+//check if subarray with 0 sum exists or not
+
 public class zeroSum 
 {
 	public static Boolean zeroSum(int[] x) 
